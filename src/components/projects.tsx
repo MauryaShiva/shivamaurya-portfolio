@@ -123,11 +123,10 @@ const projects: Project[] = [
       "/projects/supplychain-3.png",
     ],
     tags: ["FastAPI", "React", "Supabase", "Groq AI"],
-    featured: true,
     links: [
       {
         label: "Admin",
-        url: "https://supply-chain-ai-dashboard-admin.vercel.app",
+        url: "https://supply-chain-ai-dashboard-admi.vercel.app",
         icon: <LayoutDashboard size={14} />,
       },
       {
@@ -171,7 +170,7 @@ const projects: Project[] = [
       "/projects/gymx-3.png",
     ],
     tags: ["React", "Tailwind", "Fuse.js", "Vite"],
-    links: [{ label: "Live", url: "https://gym-x-fitness.vercel.app/" }],
+    links: [{ label: "Live Demo", url: "https://gym-x-fitness.vercel.app/" }],
   },
   {
     title: "Sentiment Analysis WebApp",

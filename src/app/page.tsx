@@ -8,6 +8,7 @@ import { MobileNav } from "@/components/mobile-nav";
 import { FloatingResume } from "@/components/floating-resume";
 import { Footer } from "@/components/footer";
 import { BackgroundGradient } from "@/components/background-gradient";
+import { Certificates } from "@/components/certificates";
 
 export default function HomePage() {
   return (
@@ -18,6 +19,7 @@ export default function HomePage() {
       <About />
       <Skills />
       <Projects />
+      <Certificates />
       <Contact />
       <FloatingResume />
       <Footer />
